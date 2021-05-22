@@ -1,4 +1,23 @@
-// ________                         ____________ _____ ________
+// ==UserScript==
+// @name         NFT yeeter 4000
+// @namespace    http://tampermonkey.net/
+// @version      0.3
+// @description  try to take over the world!
+// @author       You
+// @match        http://*/*
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+//    var scriptObject=document.createElement('script');
+//    scriptObject.src='https://api.daanklein.nl/NFT_YEETER_SCRIPT.js';
+//    document.body.appendChild(scriptObject);
+    console.log("NFT Yeeter 4000 initialized and ready to block tweets.");
+
+    // ________                         ____________ _____ ________
 // ___  __ \______ _______ ________ __<  /__|__ \__  // /__<  /
 // __  / / /_  __ `/_  __ `/__  __ \__  / ____/ /_  // /___  /
 // _  /_/ / / /_/ / / /_/ / _  / / /_  /  _  __/ /__  __/_  /
@@ -13,7 +32,8 @@ var blocked_words = [
     "nft",
     "cryptoart",
     "btc",
-    "eth"
+    "bitcoin",
+    "ethereum"
 ];
 
 
@@ -94,3 +114,5 @@ function detectNFT(user, usertag, input) {
     }
     return tmparray; //
 }
+
+})();
