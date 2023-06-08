@@ -12,7 +12,6 @@
 (function() {
     'use strict';
 
-//    This is a demo, remove later
 //    var scriptObject=document.createElement('script');
 //    scriptObject.src='https://api.daanklein.nl/NFT_YEETER_SCRIPT.js';
 //    document.body.appendChild(scriptObject);
